@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: white;
+  background: linear-gradient(to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@keyframes moveleftbounce {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(-20px);
+  }
+}
+
+@keyframes rotateme {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@layer utilities {
+  .animate-moveleftbounce {
+    animation: moveleftbounce 4s linear infinite;
+  }
+}
+
+@layer utilities {
+  .animate-rotateme {
+    animation-name: rotateme;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+}
+
+
+/* styles/globals.css */
+@keyframes rotate-slow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: rotate-slow 30s linear infinite; /* Adjust the duration (10s) to your preferred speed */
+}
+
+/* styles/globals.css */
+@keyframes scale-infinite {
+  0%, 100% {
+    transform: scale(1); /* Normal size */
+  }
+  50% {
+    transform: scale(1.5); /* Increased size */
+  }
+}
+
+/* styles/globals.css */
+@keyframes updown {
+  0%, 100% {
+    transform: translateY(0); /* No vertical movement */
+  }
+  50% {
+    transform: translateY(-30px); /* Move up by 20 pixels */
+  }
+}
+
+.animate-updown {
+  animation: updown 5s ease-in-out infinite; /* Adjust the duration (2s) to your preferred speed */
+}
+
