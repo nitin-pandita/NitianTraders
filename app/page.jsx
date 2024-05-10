@@ -1,6 +1,7 @@
 "use client";
 
 import Btn from "@/components/Buttton/Btn";
+import CustomCard from "@/components/Cards/CustomCard";
 import Founder from "@/components/Founder";
 import { useEffect } from "react";
 import { useState } from "react";
@@ -107,77 +108,32 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="relative grid md:grid-cols-4 gap-4   mr-4 gap-x-4">
-        <div className="text-center text-black  md:col-start-2 h-[350px] bg-white rounded-lg p-4 flex flex-col items-center gap-y-2">
-          <div className="relative text-center flex flex-row items-center justify-center z-10">
-            <img
-              src="/images/brainstorm.png"
-              alt="foreground img"
-              className=" h-[60px] w-[60px] object-cover"
-            />
-            <img
-              decoding="async"
-              src="https://themes.envytheme.com/ecademy/wp-content/uploads/2020/06/icon-shape.png"
-              alt="bg img"
-              className="h-[90px] w-[90px]  top-[2rem]"
-            />
-          </div>
-          <h1 className="font-bold">Learn From Scratch</h1>
-          <p>
-            Learn the basics of the stock market, to enhance the understanding
+      <div className="w-full flex justify-center">
+        <div className="relative flex flex-row justify-center items-center px-8 mt-4 w-full gap-4 mr-4 gap-x-4">
+          <CustomCard
+            title="Learn From Scratch"
+            image="/images/brainstorm.png"
+            description="Learn the basics of the stock market, to enhance the understanding
             of how does the stock market works and progress to an in-depth
             understanding, acquiring the knowledge and skills needed to thrive
-            in stock market trading.
-          </p>
-          <button className="text-green-700 font-semibold absolute bottom-3 w-[90%]">
-            <p className="flex justify-center">Start Now!</p>
-          </button>
-        </div>
-        <div className=" relative text-center text-black  h-[350px] bg-white rounded-lg flex flex-col gap-y-2 p-2">
-          <div className="relative text-center flex flex-row items-center justify-center z-10">
-            <img
-              src="/images/monitor.png"
-              alt="foreground img"
-              className=" h-[60px] w-[60px] object-cover"
-            />
-            <img
-              decoding="async"
-              src="https://themes.envytheme.com/ecademy/wp-content/uploads/2020/06/icon-shape.png"
-              alt="bg img"
-              className="h-[90px] w-[90px]  top-[2rem]"
-            />
-          </div>
-          <h1 className="font-bold">Revision Classes</h1>
-          <p>
-            Over 300+ revision classes to help you cover any topic you miss in
-            your live class. You will never be left behind.
-          </p>
-          <button className="text-green-700  font-semibold absolute bottom-3 w-[90%]">
-            <p className="flex justify-center">Start Now!</p>
-          </button>
-        </div>
-        <div className=" relative text-center text-black  h-[350px] bg-white rounded-lg p-4 flex flex-col gap-y-2">
-          <div className="relative text-center flex flex-row items-center justify-center z-10">
-            <img
-              src="/images/shield.png"
-              alt="foreground img"
-              className=" h-[60px] w-[60px] object-cover"
-            />
-            <img
-              decoding="async"
-              src="https://themes.envytheme.com/ecademy/wp-content/uploads/2020/06/icon-shape.png"
-              alt="bg img"
-              className="h-[90px] w-[90px]  top-[2rem] z-[-1]"
-            />
-          </div>
-          <h1 className="font-bold">Live Q/A Session</h1>
-          <p>
-            We have Live Q/A interaction sessions with Anish Singh Thakur, where
-            students ask their queries directly to him.
-          </p>
-          <button className="text-green-700  font-semibold absolute bottom-3 w-[90%]">
-            <p className="flex justify-center">Start Now!</p>
-          </button>
+            in stock market trading."
+          />
+          <CustomCard
+            title="Learn From Scratch"
+            image="/images/brainstorm.png"
+            description="Learn the basics of the stock market, to enhance the understanding
+            of how does the stock market works and progress to an in-depth
+            understanding, acquiring the knowledge and skills needed to thrive
+            in stock market trading."
+          />
+          <CustomCard
+            title="Learn From Scratch"
+            image="/images/brainstorm.png"
+            description="Learn the basics of the stock market, to enhance the understanding
+            of how does the stock market works and progress to an in-depth
+            understanding, acquiring the knowledge and skills needed to thrive
+            in stock market trading."
+          />
         </div>
       </div>
 
