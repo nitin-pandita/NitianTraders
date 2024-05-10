@@ -22,7 +22,7 @@ export default function Home() {
       <div
         className={`${
           isMobile && "h-[600px] -mt-20"
-        } h-[800px]  w-full z-[-1] bg-black bg-center bg-cover bg-no-repeat box-border`}
+        } h-[800px]  w-screen  z-[-1] bg-black bg-center bg-cover  bg-no-repeat box-border flex items-center justify-center relative pt-20 md:pt-12`}
         style={
           isMobile
             ? {
@@ -42,7 +42,7 @@ export default function Home() {
         }
       >
         <div
-          className={`relative flex flex-col z-9 md:mx-10 p-2 mt-[5rem] md:ml-[65rem] text-white `}
+          className={`relative z-10 w-full md:w-[80%] h-full flex justify-center text-center pt-10 items-center text-white `}
           style={
             !isMobile
               ? {
@@ -52,16 +52,19 @@ export default function Home() {
               : {}
           }
         >
-          <div className="flex gap-2 flex-col justify-center items-center h-[600px] md:absolute right-4 top-10 p-4">
+          <div className="flex gap-4 flex-col justify-center items-center h-[600px] md:absolute right-4 top-10 p-4 ">
             <h1 className="text-3xl md:text-[2.9rem] font-bold text-center md:text-balance leading-10">
-              Learn to trade in the most simplified way.
+              <span className="text-blue-600 md:text-[3.9rem] p-3">
+                Learn to Trade <br />
+              </span>{" "}
+              <br /> in the most simplified <br /> way.
             </h1>
-            <p className="mt-2 text-center ">
+            <p className="mt-2 text-center w-full md:w-[70%]  ">
               Booming Bulls Academy is the best stock market institute that
               provides the most simplified and to-the-point stock market course
               from the scratch for beginners.
             </p>
-            <Btn text={"Enroll Now"} />
+            <Btn text={"Enroll Now"} style="z-20" />
           </div>
           <div
             className="hidden md:block md:absolute top-[18rem] z-10 left-[16rem] animate-updown infinite"
