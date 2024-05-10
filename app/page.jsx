@@ -109,7 +109,7 @@ export default function Home() {
         </div>
       </div>
       <div className="w-full flex justify-center">
-        <div className="relative flex flex-row justify-center items-center px-8 mt-4 w-full gap-4 mr-4 gap-x-4">
+        <div className="relative flex flex-col md:flex-row  justify-center items-center px-8 mt-4 w-full gap-4 mr-4 gap-x-4">
           <CustomCard
             title="Learn From Scratch"
             image="/images/brainstorm.png"
