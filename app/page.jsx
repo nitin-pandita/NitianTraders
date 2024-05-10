@@ -1,5 +1,6 @@
 "use client";
 
+import Btn from "@/components/Buttton/Btn";
 import Founder from "@/components/Founder";
 import { useEffect } from "react";
 import { useState } from "react";
@@ -59,9 +60,7 @@ export default function Home() {
               provides the most simplified and to-the-point stock market course
               from the scratch for beginners.
             </p>
-            <button className="mt-10 z-20 p-2 font-semibold  h-12 rounded-md bg-green-700  hover:bg-[#FE4A55] transition ease-out duration-500 flex justify-center items-center gap-x-2">
-              Enroll Now
-            </button>
+            <Btn text={"Enroll Now"} />
           </div>
           <div
             className="hidden md:block md:absolute top-[18rem] z-10 left-[16rem] animate-updown infinite"
@@ -203,9 +202,7 @@ export default function Home() {
           <h2 className="text-green-700 font-bold text-lg  mt-6">
             Enroll Now by just paying ₹3000
           </h2>
-          <button className="mt-2 w-[30%] h-12 rounded-md bg-green-700 text-white flex flex-row justify-center items-center">
-            Enroll Now
-          </button>
+          <Btn text={"Enroll Now"} />
         </div>
         <div className="order-[-1] md:order-0">
           <img
@@ -233,9 +230,7 @@ export default function Home() {
             to be profitable.
           </h2>
 
-          <button className="mt-6 w-[30%] h-12 rounded-md bg-green-700 text-white flex flex-row justify-center items-center">
-            Enroll Now
-          </button>
+          <Btn text={"Enroll Now"} />
         </div>
         <div className="order-[-1] md:order-0">
           <img
@@ -271,9 +266,7 @@ export default function Home() {
             <h1>Trading System</h1>
           </div>
 
-          <button className="mt-6 w-[30%] h-12 rounded-md bg-green-700 text-white flex flex-row justify-center items-center">
-            Enroll Now
-          </button>
+          <Btn text={"Enroll Now"} />
         </div>
       </div>
 
