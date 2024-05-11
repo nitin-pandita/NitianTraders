@@ -140,8 +140,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="relative mt-[8rem] w-full flex flex-col gap-5 md:flex-row justify-center p-4 ">
-        <div className="flex flex-col justify-center text-justify md:order-[-1] md:w-1/2">
+      <div className="relative mt-[3rem] w-full flex flex-col gap-5 md:flex-row justify-center p-4 ">
+        <div className="flex flex-col p-5  items-center md:items-start justify-center text-justify md:order-[-1] md:w-1/2">
           <h4 className="text-green-700 text-lg font-semibold">
             INDIA'S NO. 1 STOCK MARKET COURSE
           </h4>
@@ -171,8 +171,8 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="relative mt-[8rem] w-full flex flex-col gap-5 md:flex-row justify-center p-4 ">
-        <div className="flex flex-col justify-center text-justify md:order-[-1] md:w-1/2">
+      <div className="relative mt-[3rem]  w-full flex flex-col gap-5 md:flex-row justify-center p-4 ">
+        <div className="flex flex-col justify-center text-center md:text-start  md:order-[-1] md:w-1/3 items-center md:items-start">
           <h4 className="text-green-700 text-lg font-semibold">About Us</h4>
           <h1 className="text-4xl mt-3">Welcome to Booming Bulls Academy</h1>
           <p className="mt-4">
@@ -200,7 +200,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="relative mt-[8rem] w-full flex flex-col gap-5 md:flex-row justify-center p-4 ">
+      <div className="relative mt-[3rem] w-full flex flex-col gap-x-10 md:flex-row justify-center p-4 ">
         <div>
           <img
             src="/images/Booming-Bulls-Logo.jpg"
@@ -208,7 +208,7 @@ export default function Home() {
             className="h-[28rem] "
           />
         </div>
-        <div className="flex flex-col justify-center text-justify md:w-1/2">
+        <div className="flex flex-col justify-center text-justify md:w-1/2 items-center md:items-start ">
           <h4 className="text-green-700 text-lg font-semibold">
             Why Choose Us
           </h4>
@@ -229,15 +229,15 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="relative mt-[8rem] w-full flex flex-col p-4 md:flex-row gap-5 items-center md:justify-center gap-x-5">
-        <div className="flex flex-col text-justify md:w-1/2">
+      <div className="relative mt-[3rem] w-full flex flex-col p-4 md:flex-row gap-5 items-center md:justify-center gap-x-5">
+        <div className="flex flex-col text-center md:text-justify md:w-1/2 p-4">
           <h4 className="text-green-700 text-lg font-semibold">
             BENEFITS OF ENROLLING IN OUR COURSE
           </h4>
           <h1 className="text-[2rem] mt-3">
             JOIN THE MOST SIMPLIFIED TRADING COURSE FROM ANISH SINGH THAKUR
           </h1>
-          <p className="mt-4">
+          <p className="mt-4 text-justify">
             Booming Bulls trading course can provide you to learn about the
             stock market from the basics, where you get to learn how does a
             market operates to how can you earn simply by putting all the
@@ -246,13 +246,13 @@ export default function Home() {
             independence efficiently and effectively.
           </p>
           <div className="mt-4 flex flex-col gap-y-4">
-            <ul className="">
-              <li>Revision Classes</li>
-              <li>5 Star Trading Setup</li>
-              <li>Booming Bulls Facebook Stock Selection Group</li>
-              <li>Trading System Development</li>
-              <li>Trading Psychology</li>
-              <li>Ultimate Trader's Checklist</li>
+            <ul className="text-justify flex flex-col gap-4">
+              <li>⭐Revision Classes</li>
+              <li>⭐5 Star Trading Setup</li>
+              <li>⭐Booming Bulls Facebook Stock Selection Group</li>
+              <li>⭐Trading System Development</li>
+              <li>⭐Trading Psychology</li>
+              <li>⭐Ultimate Trader's Checklist</li>
             </ul>
           </div>
 
@@ -284,7 +284,7 @@ export default function Home() {
       </div>
       <Founder />
 
-      <div className="relative mt-[8rem] w-full flex flex-row justify-center gap-x-5 ">
+      <div className="relative mt-[3rem] w-full flex flex-row justify-center gap-x-5 ">
         <div className="text-center p-4 md:max-w-[720px] md:mx-auto flex flex-col gap-y-2">
           <span className="text-green-700  block uppercase mb-2 text-lg font-semibold">
             Go At Your Own Pace

@@ -8,16 +8,16 @@ import { FaYoutube } from "react-icons/fa";
 function Footer() {
   return (
     <>
-      <div className="bg-gray-50 h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-10">
+      <div className="bg-gray-50 h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-10 ">
         <div className="p-5 ">
-          <ul>
+          <ul className="flex flex-col items-center justify-center">
             <div className="flex flex-col gap-2 items-center justify-center">
               <img
                 src="/images/logo.png"
-                className="w-20 h-20 rounded-full "
+                className="w-10 h-10 md:w-20 md:h-20 rounded-full "
                 alt=""
               />
-              <p className="text-gray-800 font-bold text-2xl pb-6">
+              <p className="text-gray-800 font-bold text-lg md:text-2xl pb-6">
                 NITian's <span className="text-green-700">Traders</span>
               </p>
             </div>
@@ -29,7 +29,7 @@ function Footer() {
             </div>
           </ul>
         </div>
-        <div className="p-5">
+        <div className="p-5 flex flex-col gap-2 items-center justify-center">
           <ul>
             <p className="text-gray-800 font-bold text-2xl pb-4">Company</p>
             <Link href="/about">

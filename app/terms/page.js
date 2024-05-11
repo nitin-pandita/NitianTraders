@@ -20,7 +20,7 @@ export default function Terms() {
           />
         </div>
       </div>
-      <main className="relative py-16 bg-gray-900 overflow-hidden">
+      <main className="relative py-16 bg-gray-800 overflow-hidden">
         <section className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
           <section
             className="relative h-full text-lg max-w-prose mx-auto"

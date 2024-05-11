@@ -23,7 +23,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="relative text-black bg-white w-full  z-100 ">
+    <div className="relative text-black bg-white w-full h-[10vh]  z-100 ">
       <nav
         className="w-full bg-white shadow-md shadow-black border-t-1 text-black fixed top-0 left-0 right-0 z-[60]"
         ref={navbarRef}
